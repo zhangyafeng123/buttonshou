@@ -15,6 +15,13 @@
 		BF30C4311F6FA2DE00534FC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF30C42F1F6FA2DE00534FC3 /* LaunchScreen.storyboard */; };
 		BF30C43C1F6FA2DF00534FC3 /* lineViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C43B1F6FA2DF00534FC3 /* lineViewTests.m */; };
 		BF30C4471F6FA2DF00534FC3 /* lineViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C4461F6FA2DF00534FC3 /* lineViewUITests.m */; };
+		BF30C4561F6FA2F300534FC3 /* lineV.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C4551F6FA2F300534FC3 /* lineV.m */; };
+		BF30C4591F6FB1BB00534FC3 /* btnView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF30C4581F6FB1BB00534FC3 /* btnView.m */; };
+		BF30C45B1F6FB77200534FC3 /* 1-沙盘展示on.png in Resources */ = {isa = PBXBuildFile; fileRef = BF30C45A1F6FB77200534FC3 /* 1-沙盘展示on.png */; };
+		BF30C45D1F6FB77A00534FC3 /* 2-互动展示on.png in Resources */ = {isa = PBXBuildFile; fileRef = BF30C45C1F6FB77A00534FC3 /* 2-互动展示on.png */; };
+		BF30C45F1F6FB78100534FC3 /* 3-项目概况on.png in Resources */ = {isa = PBXBuildFile; fileRef = BF30C45E1F6FB78100534FC3 /* 3-项目概况on.png */; };
+		BF30C4611F6FB78500534FC3 /* 4-项目配套on.png in Resources */ = {isa = PBXBuildFile; fileRef = BF30C4601F6FB78500534FC3 /* 4-项目配套on.png */; };
+		BF30C4631F6FB78900534FC3 /* 5-S.V.O服务体系on.png in Resources */ = {isa = PBXBuildFile; fileRef = BF30C4621F6FB78900534FC3 /* 5-S.V.O服务体系on.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,15 @@
 		BF30C4421F6FA2DF00534FC3 /* lineViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lineViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF30C4461F6FA2DF00534FC3 /* lineViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lineViewUITests.m; sourceTree = "<group>"; };
 		BF30C4481F6FA2DF00534FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF30C4541F6FA2F300534FC3 /* lineV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lineV.h; sourceTree = "<group>"; };
+		BF30C4551F6FA2F300534FC3 /* lineV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lineV.m; sourceTree = "<group>"; };
+		BF30C4571F6FB1BB00534FC3 /* btnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btnView.h; sourceTree = "<group>"; };
+		BF30C4581F6FB1BB00534FC3 /* btnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = btnView.m; sourceTree = "<group>"; };
+		BF30C45A1F6FB77200534FC3 /* 1-沙盘展示on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-沙盘展示on.png"; sourceTree = "<group>"; };
+		BF30C45C1F6FB77A00534FC3 /* 2-互动展示on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-互动展示on.png"; sourceTree = "<group>"; };
+		BF30C45E1F6FB78100534FC3 /* 3-项目概况on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-项目概况on.png"; sourceTree = "<group>"; };
+		BF30C4601F6FB78500534FC3 /* 4-项目配套on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4-项目配套on.png"; sourceTree = "<group>"; };
+		BF30C4621F6FB78900534FC3 /* 5-S.V.O服务体系on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-S.V.O服务体系on.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +119,17 @@
 			children = (
 				BF30C4241F6FA2DE00534FC3 /* AppDelegate.h */,
 				BF30C4251F6FA2DE00534FC3 /* AppDelegate.m */,
+				BF30C4541F6FA2F300534FC3 /* lineV.h */,
+				BF30C4551F6FA2F300534FC3 /* lineV.m */,
+				BF30C4571F6FB1BB00534FC3 /* btnView.h */,
+				BF30C4581F6FB1BB00534FC3 /* btnView.m */,
 				BF30C4271F6FA2DE00534FC3 /* ViewController.h */,
 				BF30C4281F6FA2DE00534FC3 /* ViewController.m */,
+				BF30C45A1F6FB77200534FC3 /* 1-沙盘展示on.png */,
+				BF30C45C1F6FB77A00534FC3 /* 2-互动展示on.png */,
+				BF30C45E1F6FB78100534FC3 /* 3-项目概况on.png */,
+				BF30C4601F6FB78500534FC3 /* 4-项目配套on.png */,
+				BF30C4621F6FB78900534FC3 /* 5-S.V.O服务体系on.png */,
 				BF30C42A1F6FA2DE00534FC3 /* Main.storyboard */,
 				BF30C42D1F6FA2DE00534FC3 /* Assets.xcassets */,
 				BF30C42F1F6FA2DE00534FC3 /* LaunchScreen.storyboard */,
@@ -248,6 +273,11 @@
 			files = (
 				BF30C4311F6FA2DE00534FC3 /* LaunchScreen.storyboard in Resources */,
 				BF30C42E1F6FA2DE00534FC3 /* Assets.xcassets in Resources */,
+				BF30C45B1F6FB77200534FC3 /* 1-沙盘展示on.png in Resources */,
+				BF30C4631F6FB78900534FC3 /* 5-S.V.O服务体系on.png in Resources */,
+				BF30C45D1F6FB77A00534FC3 /* 2-互动展示on.png in Resources */,
+				BF30C45F1F6FB78100534FC3 /* 3-项目概况on.png in Resources */,
+				BF30C4611F6FB78500534FC3 /* 4-项目配套on.png in Resources */,
 				BF30C42C1F6FA2DE00534FC3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +303,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF30C4561F6FA2F300534FC3 /* lineV.m in Sources */,
+				BF30C4591F6FB1BB00534FC3 /* btnView.m in Sources */,
 				BF30C4291F6FA2DE00534FC3 /* ViewController.m in Sources */,
 				BF30C4261F6FA2DE00534FC3 /* AppDelegate.m in Sources */,
 				BF30C4231F6FA2DE00534FC3 /* main.m in Sources */,
@@ -509,6 +541,7 @@
 				BF30C44D1F6FA2DF00534FC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF30C44E1F6FA2DF00534FC3 /* Build configuration list for PBXNativeTarget "lineViewTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +550,7 @@
 				BF30C4501F6FA2DF00534FC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF30C4511F6FA2DF00534FC3 /* Build configuration list for PBXNativeTarget "lineViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +559,7 @@
 				BF30C4531F6FA2DF00534FC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
