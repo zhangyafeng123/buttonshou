@@ -15,7 +15,7 @@
 @property(nonatomic,assign) NSInteger index;
 @property(nonatomic,assign) NSInteger index2;
 
-
+@property(nonatomic,assign) NSInteger indexTest;
 @end
 
 @implementation lineV
