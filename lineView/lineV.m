@@ -18,6 +18,8 @@
 
 @property (nonatomic,strong) UIView *testView;
 
+@property(nonatomic,assign) NSInteger indexTest;
+
 @end
 
 @implementation lineV
