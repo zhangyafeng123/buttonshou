@@ -13,6 +13,7 @@
 @interface lineV ()
 
 @property(nonatomic,assign) NSInteger index;
+@property(nonatomic,assign) NSInteger index2;
 
 
 @end
