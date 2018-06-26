@@ -8,6 +8,15 @@
 
 #import "lineV.h"
 
+
+
+@interface lineV ()
+
+@property(nonatomic,assign) NSInteger index;
+
+
+@end
+
 @implementation lineV
 
 - (void)drawRect:(CGRect)rect {
