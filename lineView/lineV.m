@@ -16,6 +16,8 @@
 @property(nonatomic,assign) NSInteger index2;
 
 
+@property (nonatomic,strong) UIView *testView;
+
 @end
 
 @implementation lineV
